@@ -138,6 +138,7 @@ int main(int argc, char **argv){
   Accessor *acc;
   if(argc != 4){
     printf("Usage: stp2gltf <stpfile> <gltf file> <bin file>\n");
+    return -1;
   }
   ls = new LoadStep(argv[1]);
   acc = ls->getAccessors();
