@@ -12,7 +12,7 @@ using namespace std;
 JsonRoot *getEmptyJson(){
   string json;
   char gltfbase[] =
-    "{\"asset\":{\"generator\":\"COLLADA2GLTF\",\"version\":\"2.0\"},"
+    "{\"asset\":{\"generator\":\"STP2GLTF\",\"version\":\"2.0\"},"
     "\"scene\":0,"
     "\"scenes\":[{\"nodes\":[0]}],"
     "\"nodes\":[{\"children\":[1]},{\"mesh\":0}],"
