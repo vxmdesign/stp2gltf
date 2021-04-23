@@ -11,7 +11,7 @@ LoadFace::LoadFace(TopoDS_Face &pFace){
   mOffset = 0;
   mHash = pFace.HashCode(INT_MAX);
   Standard_Boolean reversed = (pFace.Orientation() == TopAbs_REVERSED);
-  BRepMesh_IncrementalMesh mesh(pFace, 0.1);
+  BRepMesh_IncrementalMesh mesh(pFace, TRIANGULATION_SCALE);
   TopLoc_Location loc = pFace.Location();
   Handle(Poly_Triangulation) triangulation = BRep_Tool::Triangulation(pFace, loc);
   gp_Trsf transform = loc;

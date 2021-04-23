@@ -27,6 +27,9 @@ typedef struct{
   float b;
 }RGBColor;
 
+#define TRIANGULATION_SCALE 0.1
+
+
 using namespace std;
 
 class LoadFace{
