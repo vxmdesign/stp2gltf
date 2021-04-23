@@ -5,7 +5,7 @@ This program is a quick and dirty tool I wrote to convert step to gltf. I create
 This requires the liboce dev libraries for opencascade.
 This also requires microjson which requires flex and bison. Microjson is automatically cloned and built as part of the build process
 
-Outside of that it should have basically no other library requires and compiles under c++98
+Outside of that it should have basically no other library requires and compiles under c++98 ( sudo apt-get install liboce-ocaf-dev flex bison I think will do it)
 
 
 To build:
